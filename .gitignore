@@ -1,2 +1,4 @@
 vendor/
 admin/vendor/
+app/database/
+admin/database/
