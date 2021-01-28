@@ -1,0 +1,268 @@
+label {
+  margin: 0;
+  display: flex;
+}
+
+.container-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.userName {
+  margin: 0;
+  padding-right: 0.5rem;
+}
+
+.bg-gradient-black {
+  background-color: #000000;
+  background-image: linear-gradient(180deg, #151930 10%, #333436 100%);
+  background-size: cover;
+}
+
+.panel-heading {
+  font-size: 150%;
+  font-weight: bold;
+  padding-left: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+select {
+  text-align-last: center;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.input-group label {
+  color: #000000;
+  font-size: 12px;
+}
+
+#btn-atualiza-data {
+  background-color: transparent;
+  border: none;
+}
+
+.search-produto {
+  width: 20%;
+  margin-left: 2rem;
+}
+
+.search-produto input {
+  text-align: center;
+}
+
+.search-produto button {
+  border: none;
+  background-color: transparent;
+  margin-left: 1rem;
+}
+
+.search-pedido {
+  width: 50%;
+  margin-left: 2rem;
+}
+
+.search-pedido form {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+}
+
+.search-pedido input,
+.search-pedido select {
+  text-align: center;
+  margin: 1rem;
+  display: block;
+  padding: 0.2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6e707e;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d1d3e2;
+  border-radius: 0.35rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.search-pedido button {
+  border: none;
+  background-color: transparent;
+  margin-left: 1rem;
+}
+
+.btn-function-table {
+  border: none;
+  background-color: transparent;
+}
+
+.table {
+  text-align: center;
+}
+
+.fa-times-circle {
+  color: #ff0000;
+}
+
+.fa-pencil-alt {
+  color: #1fb40c;
+}
+
+.table-pedidos {
+  font-size: 0.8rem;
+}
+
+#formBanner {
+  width: 60%;
+}
+
+.banners img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.banners h4 {
+  margin-top: 1rem;
+  background-color: #1fb40c;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+}
+
+.title-banner {
+  width: 15%;
+  text-align: center;
+}
+
+.body404 {
+  background-color: #2068b4;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.title-error {
+  padding-top: 7rem;
+}
+
+.title-error span {
+  font-size: 10rem;
+}
+
+.title-error h1 {
+  margin-top: 2rem;
+}
+
+.text-error {
+  font-size: 1.2rem;
+}
+
+.text-error a {
+  text-decoration: none;
+  color: #00ff3c;
+  font-weight: bold;
+}
+
+.produtos-pedido {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+}
+
+.modal-content-pedidos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.total-pedido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30%;
+  margin-right: 0;
+  margin-left: auto;
+  text-align: center;
+}
+
+.total-pedido label {
+  margin: 0;
+  font-weight: bold;
+}
+
+.info-group {
+  width: 100%;
+}
+
+.info-group label {
+  padding-left: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.info-group div {
+  background-color: rgb(240, 240, 240);
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  color: #000;
+  font-size: 1rem;
+}
+
+.div-group {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.select-status {
+  margin-top: 1.5rem;
+}
+
+.select-status select {
+  background-color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  color: #FFF;
+  font-size: 1rem;
+}
+
+.select-status label {
+  font-size: 0.8rem;
+  padding-left: 0.8rem;
+}
+
+.table-produtos-pedido { 
+  margin-top: 1.5rem;
+}
+
+.table-produtos-pedido h6 {
+  font-size: 1.2rem !important;
+  font-weight: 600;
+}
+
+#pedidoModal {
+  display: none;
+}
+
+.swal2-title {
+  font-size: 1.2rem !important;
+}

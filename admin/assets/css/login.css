@@ -1,0 +1,71 @@
+.img-fundo {
+  background-image: url("../img/funto-tela-login.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+form, input {
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: #FFFFFF;
+}
+
+.body {
+  width: 50%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5rem;
+  border-radius: 1.4rem;
+}
+
+.container-form {
+  padding: 5rem;
+}
+
+.container {
+  position: relative;
+}
+
+#result {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.login-result {
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.logar {
+  margin-top: 2rem;
+  width: 50%;
+}
+
+.icon {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.container-icon {
+  background-color: #ff9100;
+  border-radius: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+.fa-user, .fa-key {
+  padding: 0.7rem;
+}
