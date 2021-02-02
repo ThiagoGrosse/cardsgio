@@ -49,13 +49,13 @@ if (isset($_SESSION['carrinho'])) {
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/img/banners/banner01.jpg" class="d-block w-100" width="1300" height="350" alt="banner01">
+                    <img src="assets/img/banners/banner01.jpg" class="d-block w-100 img-fluid" width="1300" height="350" alt="banner01">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/banners/banner02.jpg" class="d-block w-100" width="1300" height="350" alt="banner02">
+                    <img src="assets/img/banners/banner02.jpg" class="d-block w-100 img-fluid" width="1300" height="350" alt="banner02">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/banners/banner03.jpg" class="d-block w-100" width="1300" height="350" alt="banner03">
+                    <img src="assets/img/banners/banner03.jpg" class="d-block w-100 img-fluid" width="1300" height="350" alt="banner03">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
