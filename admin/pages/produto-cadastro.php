@@ -41,8 +41,8 @@ require_once 'views/head.php'; ?>
                         <div class="col-md-4">
                             <select name="condicao" id="condicao" class="form-control">
                                 <option value="#" disabled selected>-- Selecione --</option>
-                                <option value="rara">Rara</option>
                                 <option value="super-rara">Super-Rara</option>
+                                <option value="rara">Rara</option>
                                 <option value="comum">Comum</option>
                                 <option value="dourada">Dourada</option>
                             </select>

@@ -215,9 +215,10 @@ require_once 'views/head.php'; ?>
                                     <label class="input-group-text" for="condicao">Condição</label>
                                     <select class="form-select" id="condicao" name="condicao">
                                         <option disabled selected>Selecione</option>
+                                        <option value="super-rara">Super-Rara</option>
                                         <option value="rara">Rara</option>
-                                        <option value="semi-raro">Semi-rara</option>
                                         <option value="comum">Comum</option>
+                                        <option value="dourada">Dourada</option>
                                     </select>
                                 </div>
                                 <div class="input-group mb-3">
