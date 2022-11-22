@@ -1,0 +1,19 @@
+[
+    {
+        "título": "Cadastra categoria",
+        "url": "/category/create",
+        "body": {
+            "category_title": "category teste",
+            "category_status": "Ativo"
+        }
+    },
+    {
+        "título": "Atualiza categoria",
+        "url": "/category/update",
+        "body": {
+            "id_category": 1,
+            "category_title": "category teste update",
+            "category_status": "Inativo"
+        }
+    }
+]

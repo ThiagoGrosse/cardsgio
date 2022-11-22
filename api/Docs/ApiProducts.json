@@ -1,0 +1,33 @@
+[
+    {
+        "título": "Cadastra produtos",
+        "url": "/product/create",
+        "body": {
+            "title_product": "product teste",
+            "desc_product": "desc_product",
+            "category": "Carta rara",
+            "status": "Ativo",
+            "featured_item": "Não",
+            "balance": 10,
+            "price_off": 123.45,
+            "price_per": 123.45
+        }
+    },
+    {
+        "título": "Atualiza produtos",
+        "url": "/product/update",
+        "body": {
+            "id_item": 1335,
+            "title_product": "product teste",
+            "desc_product": "desc_product",
+            "category": "Carta rara",
+            "status": "Ativo",
+            "featured_item": "Não"
+        }
+    },
+    {
+        "titulo": "Deletar produtos",
+        "url": "/product/delete",
+        "params": 12345
+    }
+]
